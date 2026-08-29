@@ -81,7 +81,7 @@ jobs:
 
       - name: Set up Java 25
         if: steps.targets.outputs.has_target_weeks == 'true'
-        uses: actions/setup-java@v5
+        uses: actions/setup-java@v6
         with:
           java-version: '25'
           distribution: 'temurin'
